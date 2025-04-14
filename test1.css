@@ -1,0 +1,144 @@
+#background{
+    background-image: url("organic.jpg");
+    background-color: aqua;
+    background-size: cover;
+    height:350px;
+    width:100%;
+}
+#login{
+    margin-left: 75%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#login>a{
+    text-decoration: none;
+}
+#edureka{
+    background-color: brown;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left: 45%;
+    position:absolute;
+    margin-top: 10%;
+}
+#para{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top:-2%
+}
+#text{
+    margin-top: 15%;
+    margin-left:35%
+}
+#make{
+    font-size: 25px;
+}
+#dropdown{
+    height:30px;
+    width:50%;
+    margin-top:1%;
+    margin-left:25%;
+}
+select{
+    height:30px;
+    width:40%;
+    font-size: 20px;
+    color:red
+}
+#RESTAURANT{
+    width:50%;
+}
+#search{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#subheading{
+font-size:20px;
+margin-top:-2%;
+margin-left:1%;
+}
+.specialbox{
+    height:150px;
+    width:300px;
+    box-shadow:3px 3px 3px  black;
+    display:inline-block;
+    margin-top:10px;
+    margin-left:15px;
+}
+.image{
+    display:inline-block
+}
+#component{
+    display:inline-block;
+    margin-top:-50%;
+    margin-left:50%
+}
+#dinner{
+    font-weight: bold;
+    font-size: 25px;
+}
+#delicious{
+    margin-top:-20px
+}
+#container{
+    margin-left:15%;
+}
+#welcome{
+    margin-top:2%;
+    font-weight: bold;
+    font-size: 40px;
+    animation:wellcome 5s infinite;
+}
+@keyframes wellcome{
+    0%{margin-left:20%};
+    20%{margin-left:40%}
+    40%{margin-left:60%}
+    60%{margin-left:80%}
+    100%{margin-left:90%}
+
+}
+
+@media screen and ( max-width:1200px){
+body{
+    background-color: cadetblue;
+}
+
+}
+
+@media screen and ( max-width:1000px){
+    body{
+        background-color: rgb(160, 139, 95);
+    }
+ }
+
+ @media screen and ( max-width:800px){
+    body{
+        background-color: rgb(95, 160, 95);
+    }
+    
+}
+    
+    
+@media screen and ( max-width:600px){
+    body{
+        background-color: rgb(152, 95, 160);
+    }
+
+    }
+    @media screen and(max-eidth:400px)  {
+        body{
+            background-color: blueviolet;
+        }
+    }
+.specialbox:hover{
+    transform: scale(1.1);
+
+}
+#mahesh{height:350px;
+    width:100%;}
+
+
+
